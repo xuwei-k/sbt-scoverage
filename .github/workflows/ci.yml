@@ -2,11 +2,6 @@ name: CI
 
 on:
   push:
-    paths-ignore:
-      - '*.md'
-    branches:
-      - main
-      - V2
   pull_request:
 
 jobs:
